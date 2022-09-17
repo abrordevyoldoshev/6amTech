@@ -1,0 +1,68 @@
+.container {
+  //========== main doc scss started =========
+  .main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 40vh;
+    background: #fab758;
+    line-height: 3rem;
+    h1 {
+      font-size: 2.8rem;
+      font-weight: 700;
+      color: #fff;
+    }
+    h2 {
+      color: #fff;
+    }
+    .btn {
+      width: 300px;
+      border-radius: 5px;
+      border: none;
+      font-size: 1.1rem;
+      transition: .3s;
+      &:hover{
+        background-color: #9f9b9b;
+
+      }
+    }
+    .link {
+      color: #000000;
+      font-weight: 700;
+    }
+  }
+  //======== Cards style started =========
+  .cards{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    line-height: 2rem;
+    .card{
+      text-align: center;
+      width: 400px;
+      img{
+        width: 180px;
+      }
+      h3{
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: #fab758;
+        margin-top: 2rem;
+      }
+      p{
+        font-size: .9rem;
+        font-weight: 500;
+        color: #7c7b7b;
+
+      }
+      .img3{
+        height: 135px;
+        width: 180px;
+      }
+    }
+  }
+}
